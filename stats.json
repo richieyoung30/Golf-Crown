@@ -1,0 +1,32 @@
+[
+    {
+      "course": "Fort Erie Golf",
+      "date": "December 24th, 2023",
+      "weather": "Cloudy",
+      "players": [
+        { "name": "Richie", "score": 71, "fairway": "33.3%", "green": "27.8%" },
+        { "name": "Dad", "score": 72, "fairway": "33.3%", "green": "22.2%" },
+        { "name": "Grandad", "score": 72, "fairway": null, "green": null }
+      ]
+    },
+    {
+      "course": "Fort Erie Golf",
+      "date": "October 12th, 2023",
+      "weather": "Partly Cloudy",
+      "players": [
+        { "name": "Richie", "score": 76, "fairway": "33.3%", "green": "16.7%" },
+        { "name": "Dad", "score": 78, "fairway": "33.3%", "green": "22.2%" },
+        { "name": "Grandad", "score": null, "fairway": null, "green": null }
+      ]
+    },
+    {
+      "course": "Whiskey Run",
+      "date": "October 5th, 2023",
+      "weather": "Partly Cloudy",
+      "players": [
+        { "name": "Richie", "score": 89, "fairway": null, "green": null },
+        { "name": "Dad", "score": null, "fairway": null, "green": null },
+        { "name": "Grandad", "score": 87, "fairway": null, "green": null }
+      ]
+    }
+  ]

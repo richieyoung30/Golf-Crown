@@ -1,0 +1,8 @@
+{
+    "standings": [
+      { "position": 1, "player": "Richie", "points": 150 },
+      { "position": 2, "player": "Dad", "points": 120 },
+      { "position": 3, "player": "Grandad", "points": 90 },
+      {"position": 4, "player": "Kevin", "points": 0}
+    ]
+  }

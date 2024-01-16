@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Stats</title>
+</head>
+
+<body>
+
+    <!-- Content specific to the Stats page -->
+    <div class="header">
+        <h1>Young's Golf Crown</h1>
+        
+       
+    </div>
+    <nav>
+        <a href="index.html">Main Page</a>
+        <a href="records.html">Records</a>
+        <a href="players.html">Players</a>
+        <a href="courses.html">Courses</a>
+        <a href="stats.html">Stats</a>
+    </nav>
+        <!-- Your existing content here -->
+        <h2>Stats:</h2>
+
+    <div class="stats-banner">
+        <button class="stats-button" onclick="showStats('score')" data-stat="score">Score Stats</button>
+        <button class="stats-button" onclick="showStats('fairway')" data-stat="fairway">Fairway Stats</button>
+        <button class="stats-button" onclick="showStats('green')" data-stat="green">Green Stats</button>
+        <button id="gamesPlayedButton">Games Played Stats</button>
+    </div>
+
+
+    <!-- Placeholder for stats display -->
+    <div id="stats-container" class="stats-container">
+        <!-- Stats content will be dynamically updated here -->
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

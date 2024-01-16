@@ -1,0 +1,7 @@
+{
+    "players": [
+      { "name": "Richie", "score": 71, "fairwayPercentage": 33.3, "greenPercentage": 27.8 },
+      { "name": "Dad", "score": 72, "fairwayPercentage": 33.3, "greenPercentage": 22.2 },
+      { "name": "Grandad", "score": 72, "fairwayPercentage": null, "greenPercentage": null }
+    ]
+  }

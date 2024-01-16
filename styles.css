@@ -1,0 +1,399 @@
+body {
+    background-color: #f2f2f2; /* Set a light grey background color for the entire page */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding to the body */
+    text-align: center; /* Center the content */
+}
+nav {
+    background-color: #3498db;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Style for the navigation bar links */
+nav a {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Add space between links */
+nav a:not(:last-child) {
+    margin-right: 20px;
+}
+
+/* Change color on hover */
+nav a:hover {
+    background-color: #2980b9;
+}
+/* Styling for the title */
+h1 {
+    font-family: 'Arial', sans-serif; /* Use a specific font */
+    color: #3498db; /* Set the text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow */
+    letter-spacing: 2px; /* Adjust letter spacing */
+    margin-bottom: 20px; /* Add some spacing at the bottom */
+    background-color: #fff; /* Set a background color for the title */
+    padding: 10px; /* Add padding to the title */
+    border-radius: 8px; /* Add rounded corners to the title */
+    display: inline-block; /* Make the background color wrap around the text only */
+    margin: auto; /* Center the title */
+}
+/* Optional styling for the table */
+.container {
+    width: 80%; /* Adjust the width as needed */
+    margin: 20px auto; /* Center the container */
+    border: 2px solid #ddd; /* Border for the container */
+    padding: 20px;
+}
+/* Style for table with class "table-style1" */
+.profile-picture {
+    width: 100px; /* Set the width of the picture cell */
+    
+}
+
+/* Style for table with class "table-style1" */
+.table-style1 {
+    width: 60%;
+    margin: left;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+/* Style for table headers */
+.table-style1 th {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 12px;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 2px solid #2980b9;
+}
+
+/* Style for table cells */
+.table-style1 td {
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+/* Style for alternating row colors */
+.table-style1 tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Style for the "Days Held Crown" cell */
+#daysHeldCell {
+    font-weight: bold;
+}
+
+/* Hover effect on table rows */
+.table-style1 tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Style for the "Days Held Crown" cell */
+#daysHeldCell {
+    font-weight: bold;
+}
+
+/* Hover effect on table rows */
+.table-style1 tr:hover {
+    background-color: #e0e0e0;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid #ddd;
+    padding: 20px;
+    position: relative;
+}
+.original-text {
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+/* Optional styling for the second table */
+.table-style2 {
+    border-collapse: collapse;
+    width: 100%;
+    opacity: 0; /* Hide the table by default */
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Place the table above other content */
+}
+
+.table-style2 th, .table-style2 td {
+    border: 2px solid #3498db;
+    padding: 10px;
+    text-align: center;
+}
+
+.table-style2 th {
+    background-color: #3498db;
+    color: #fff;
+}
+.container:hover .original-text {
+    opacity: 0;
+}
+
+/* Add button styling */
+.container:hover .table-style2 {
+    opacity: 1; /* Make the table visible on hover */
+}
+
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+h1, h2, h3,h4 {
+    text-align: center;
+}
+
+h2 {
+    
+    text-align: left;
+}
+h3{
+    text-align: left;
+    font-size: 1.5em; /* Adjust the font size as needed */
+}
+h4{
+    text-align: center;
+    font-size: small;
+}
+.header {
+    overflow: hidden;
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropbtn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0; /* Adjust the right property to open more to the left */
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.standings-container {
+    float: right; /* Float the container to the right */
+    margin-top: 20px; /* Add some top margin for spacing */
+    margin-right: 20px; /* Add some right margin for spacing */
+    width: 500px; /* Set a fixed width for the container */
+    padding: 10px; /* Add padding for a cleaner appearance */
+    border: 1px solid #ddd; /* Add a border for a subtle separation */
+    border-radius: 8px; /* Add rounded corners */
+    background-color: #ffffff; /* Set a light background color */
+  }
+  
+  /* Styles for the standings table */
+  .standings-table {
+    width: 100%; /* Occupy the full width of the container */
+    border-collapse: collapse; /* Collapse borders for a cleaner look */
+  }
+  
+  /* Styles for table headers in the standings table */
+  .standings-table th {
+    background-color: #3498db; /* Header background color */
+    color: #0f0f0f; /* Header text color */
+    padding: 10px; /* Padding for header cells */
+    text-align: right; /* Center-align header text */
+  }
+  
+  /* Styles for table cells in the standings table */
+  .standings-table td {
+    padding: 8px 15px; /* Padding for data cells (top/bottom 8px, left/right 15px) */
+    text-align: right; /* Center-align data text */
+    border-bottom: 1px solid #ddd; /* Bottom border for data cells */
+  }
+  /* Styles for alternating row colors in the standings table */
+  .standings-table tr:nth-child(even) {
+    background-color: #858484; /* Even row background color */
+  }
+  
+  /* Hover effect on standings table rows */
+  .standings-table tr:hover {
+    background-color: #ffffff; /* Hovered row background color */
+  }
+.players-container {
+    display: flex;
+    flex-direction: column; /* Display vertically */
+}
+
+.player-box {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+.player-box img {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    border-radius: 50%; /* Make the image round */
+    margin-right: 20px;
+}
+
+.player-info h3 {
+    margin: 0; /* Remove default margin for h3 */
+}
+.stats-banner {
+    text-align: center;
+    padding: 10px;
+    background-color: #707070;
+    margin-bottom: 20px;
+}
+
+#stats-container {
+    margin-top: 20px;
+}
+
+/* Style for each stat entry */
+#stats-container p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+/* Style for the active button */
+.stats-button.active {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Style for the stats buttons */
+.stats-button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Optional: Hover effect for stats buttons */
+.stats-button:hover {
+    background-color: #e0e0e0;
+}
+
+#stats-container .stats-entry {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the course and date */
+#stats-container .course-date {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Style for the player stats */
+#stats-container .player-stats {
+    font-size: 16px;
+}
+
+/* Optional: Hover effect for stats entries */
+#stats-container .stats-entry:hover {
+    background-color: #e0e0e0;
+}
+.stats-container {
+    text-align: left; /* Align the stats entries to the left */
+}
+
+.stats-entry {
+    margin-bottom: 20px; /* Add some spacing between stats entries */
+}
+
+.course-date {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.player-stats {
+    margin-left: 20px; /* Add some indentation for player stats */
+}
+
+
+.course-container {
+    text-align: center;
+    margin: 10px;
+    display: inline-block; /* Add this to make elements display inline */
+}
+
+.course-container img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.course-name {
+    margin-top: 5px; /* Add space between image and course name */
+}
+.courses-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Add any styles specific to the courses page body here */
+}
+.courses-body img {
+    max-width: 100%;
+    height: auto;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.courses-body img:hover {
+    border: 2px solid #555; /* Darken the border color on hover */
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <!-- Add any other stylesheets or head elements here -->
+        <title>Players</title>
+    </head>
+    
+    <body>
+        <div class="header">
+            <h1>Young's Golf Crown</h1>
+        </div>
+        <nav>
+            <a href="index.html">Main Page</a>
+            <a href="records.html">Records</a>
+            <a href="players.html">Players</a>
+            <a href="courses.html">Courses</a>
+            <a href="stats.html">Stats</a>
+        </nav>
+    
+        <div id="standings-container" class="standings-container"></div>
+    
+        <!-- Player Boxes Container -->
+        <div class="players-container">
+            <div class="player-box">
+                <img src="images\richie-profile-cropped.jpeg" alt="Player 1">
+                <div class="player-info">
+                    <h3>Richie</h3>
+                    <p>Score: 71</p>
+                </div>
+                <!-- Add other player information here -->
+            </div>
+    
+            <!-- Player Box 2 -->
+            <div class="player-box">
+                <img src="images\dad-profile-cropped.png" alt="Player 2">
+                <div class="player-info">
+                    <h3>Dad</h3>
+                    <p>Score: 72</p>
+                </div>
+                <!-- Add other player information here -->
+            </div>
+    
+            <!-- Player Box 3 -->
+            <div class="player-box">
+                <img src="images\grandad-profile-picture.png" alt="Player 3">
+                <div class="player-info">
+                    <h3>Grandad</h3>
+                    <p>Score: 72</p>
+                </div>
+            </div>
+            <div class="player-box">
+                <img src="images\kevin-profile-picture.png" alt="Player 3">
+                <div class="player-info">
+                    <h3>Kevin</h3>
+                    <p>Score: 0</p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Include your script file -->
+        <script src="script.js"></script>
+        
+        <!-- Call the fetch function -->
+        <script>
+            fetchStandings('standings-container', 'standings.json'); // Replace with your actual standings data source
+        </script>
+    </body>
+</html>
